@@ -1,0 +1,195 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body{
+    background-image: url("pexels-pixabay-355747.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Courier New', monospace;
+}
+#mylogo{
+    width: 70px;
+    margin: 0 12pt -12pt;
+}
+hr{
+    opacity: 0.5;
+}
+h1{
+    text-align: center;
+    color: #333;
+    letter-spacing: 3px;
+}
+.portf #ul{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.portf #li{
+    display: inline-block;
+    margin: 0 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#link{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 0.5rem;
+    color: #333;
+    text-decoration: none;
+    padding:10px 6px;
+}
+#link:after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #333;
+    transition: 0.6s;
+
+}
+#link:hover{
+    color: rgb(154, 152, 152);
+}
+#link:hover:after{
+    width: 100%;
+
+}
+#br1{
+    margin: 60px;
+}
+.datetime{
+    text-align: center;
+    background-color: #333;
+    margin: 0 auto;
+    opacity: 0.8;
+    color: #f1cdce;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    display: table;
+}
+/* Contacts */
+#cont{
+    background-color: #333;
+    /* padding: 20px; */
+    opacity: 0.7;
+    text-align: center;
+    color:#f1cdce;
+    font-size: 30px;
+    font-weight: bold;
+    display: table;
+    margin: 0 auto;
+}
+#br3{
+    margin: 20px;
+}
+/* Projects */
+.avgscore, .calc, .stopw, .toto{
+    display:table;
+    margin: 0 auto;
+    background-color: #333;
+    opacity: 0.9;
+}
+#text1, #calc1, .text2, #result{
+color: #f1cdce;
+}
+#calc1{
+    font-size: 20px;
+}
+input, select{
+background-color: #5C85C4;
+font-weight: bold;
+font-family: 'Courier New', monospace;
+width: 150px;
+padding: 5px;
+font-size: 15px;
+}
+#icon{
+    width: 30px;
+    margin: 0 5px -5px;
+}
+.stopw1{
+    border:3px solid #5C85C4; 
+    text-align:center;
+    font-size:2em; 
+    margin-bottom:10px;
+    color: #f1cdce;
+}
+/* About me */
+.myph{
+    background-color: #333;
+    opacity: 0.8;
+    text-align: center;
+    color:#f1cdce;
+    font-size: 30px;
+    font-style: italic;
+}
+#myphoto{
+    width: 150px;
+    display:table;
+    margin: 0 auto;
+}
+/*Project Toto*/
+#total, #balance{
+    text-align: center;
+    color:#f1cdce;
+    font-size: 30px;
+}
+#result{
+    text-align: center;
+    color:rgb(205, 124, 58);
+    font-size: 30px;
+}
+#br2{
+    margin: 20px;
+}
+/*Pagination*/
+.pagination{
+    background-color: #333;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    opacity: 0.8;
+    display: table;
+}
+.pagination a {
+    color: black;
+    padding: 8px 20px;
+    text-decoration: none;
+    transition: background-color .3s;
+    color: #f1cdce;
+    font-weight: bold;
+    border-radius: 20px;
+  }
+  .pagination a:hover{
+    color: #333;
+  }
+  .pagination a.active {
+    background-color: dodgerblue;
+    color: #333;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #f1cdce;}
+  /* language */
+  /* .language{
+    background-color: rgb(82, 174, 108);
+    opacity: 0.7;
+  }
+  .language a{
+    color: #f1cdce;
+    text-decoration: none;
+
+  }
+  .language a:hover{
+    color: #333;
+  }
+  #flag{
+    width: 18px;
+    margin: 0pt 5pt;
+  } */
+  
